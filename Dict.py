@@ -1,0 +1,35 @@
+'''stu={101:'rahul',102:'raju',103:'sonam',104:'harshith'}
+fees={'rahul':2000,'raju':3000,'sonam':8000,'harshith':200}
+print(stu[101])
+print(stu[102])
+print(stu[103])
+print(fees['rahul'])
+print(fees['raju'])
+print(fees['sonam'])
+print(fees['harshith'])
+'''
+'''Eventcode={101:'hackathon',102:'coding',103:'project'}
+print(Eventcode)
+Eventcode[105]='clod engineering'
+print(Eventcode)
+#pop
+Eventcode.pop(101)
+print(Eventcode)
+#length
+print(len(Eventcode))
+#key
+print(Eventcode.keys())
+#values
+print(Eventcode.values())
+#items(list of key values in form of tuples)
+print(Eventcode.items())
+#copy
+b=Eventcode.copy
+print(b)
+'''
+dict1={1:'a',2:'b',3:'c',4:'d'}
+print(dict1)
+dict2={5:'e',6:'f',7:'g'}
+print(dict2)
+dict1.update(dict2)
+print(dict1)

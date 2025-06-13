@@ -1,0 +1,7 @@
+Dictionary
+A dictionary is representation of a grp of elements in the form of key value parts
+syntax: dict_name={key1:value1,key2:value2,...}
+key rules
+.key should be uniqe.
+.if we mention same key again ,the old key will be overwritten.
+.we can not 
